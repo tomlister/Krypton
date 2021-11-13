@@ -41,6 +41,7 @@ object InternalRegistries {
     @JvmField val CANVAS = createDefaulted(ResourceKeys.PICTURE, key("kebab"))
     @JvmField val FLUID = createDefaulted(ResourceKeys.FLUID, key("empty"))
     @JvmField val BLOCK_ENTITY_TYPE = create(ResourceKeys.BLOCK_ENTITY_TYPE)
+    @JvmField val BLOCK_LOOT = create(ResourceKeys.BLOCK_LOOT)
 
     // World generation registries
     @JvmField val GENERATOR = create(InternalResourceKeys.GENERATOR)

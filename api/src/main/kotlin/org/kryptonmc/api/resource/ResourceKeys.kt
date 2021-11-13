@@ -78,6 +78,7 @@ public object ResourceKeys {
     @JvmField public val FLUID: ResourceKey<out Registry<Fluid>> = minecraft("fluid")
     @JvmField public val DIMENSION_TYPE: ResourceKey<out Registry<DimensionType>> = minecraft("dimension_type")
     @JvmField public val BLOCK_ENTITY_TYPE: ResourceKey<out Registry<BlockEntityType>> = minecraft("block_entity")
+    @JvmField public val BLOCK_LOOT: ResourceKey<out Registry<Block>> = minecraft("block_loot")
 
     /**
      * Custom built-in registries.
