@@ -120,6 +120,7 @@ import org.kryptonmc.krypton.packet.out.play.PacketOutUpdateViewPosition
 import org.kryptonmc.krypton.packet.out.play.PacketOutWindowItems
 import org.kryptonmc.krypton.packet.out.play.PacketOutSetPassengers
 import org.kryptonmc.krypton.packet.out.play.PacketOutUpdateHealth
+import org.kryptonmc.krypton.packet.out.play.PacketOutBlockBreak
 import org.kryptonmc.krypton.packet.out.status.PacketOutPong
 import org.kryptonmc.krypton.packet.out.status.PacketOutStatusResponse
 import org.kryptonmc.krypton.util.IdentityHashStrategy
@@ -186,6 +187,7 @@ object PacketRegistry {
         register<PacketOutAnimation>(0x06)
         register<PacketOutStatistics>(0x07)
         register<PacketOutDiggingResponse>(0x08)
+        register<PacketOutBlockBreak>(0x09)
         register<PacketOutBlockChange>(0x0C)
         register<PacketOutBossBar>(0x0D)
         register<PacketOutDifficulty>(0x0E)
